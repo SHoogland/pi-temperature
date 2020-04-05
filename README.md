@@ -27,6 +27,8 @@ change pw with passwd
 
 `sudo apt-get upgrade`
 
+`sudo apt-get install git`
+
 `sudo reboot`
 
 `sudo nano /boot/config.txt`
@@ -46,3 +48,8 @@ add `dtoverlay=w1-gpio`
 `cd 28-00000bcf3122`
 
 `cat w1_slave`
+
+# upload code
+run with crontab for example 
+
+- run with: `node index.mjs --experimental-modules [domain] [location] [sensor-address]`
